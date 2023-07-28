@@ -35,3 +35,5 @@ The output of the model is a (1, 4) Numpy array, which assigns a probability (0 
     - Asking the **User** to select their choice (*R*, *P* or *S*), with error checks to ensure the entry is valid.
     - Determining the result of the game, from the perspective of the **User**
     - Printing the result to the terminal
+
+- After confirming the game functioned correctly, code was tidied to ensure it conforms to the PEP 8 Style Guide.
