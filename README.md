@@ -52,7 +52,7 @@ The above elements (the computer vision model and the basic game structure, writ
 
 4. The game was further extended in two ways:
     - When the match begins, the user is asked how many rounds are needed to win. A reply incorporating the **User's** entry is printed before the match begins, and the number of rounds needed to win the match (i.e. the conditions of the `play_full_game()` loop) are altered accordingly.
-    - At the end of the game, the a parting shot from the computer is randomly selected from a list and printed to the terminal. 
+    - At the end of the game, a parting shot from the computer is randomly selected from a list and printed to the terminal. 
 
 5. Screenshots from the game and the terminal are shown below. 
 
@@ -62,6 +62,6 @@ The above elements (the computer vision model and the basic game structure, writ
 
 ![Image of first round](game_image_3.png) 
 
-6. Further improvements, with more time, would be to allow the user to play against a choice of characters, with interaction chosen specific to that character.  Another possibility (with quite a bit more time!) would be to include different difficulty levels, by making the computer prediction after the image prediction of the user's guess has been captured.  The probability of the computer's choice being one of the options that leads to a user win could be increased for an 'Easy' game, and reduced for a 'Difficult' game (leaving unweighted probabilities as standard). This could be implemented using the `weights` argument of the `random.choice()` provided by the random module.  The ethics of a computer guess being selected after a user guess (even if at random) seem slightly iffy to me, but you'll see far worse tactics if you play a few humans!
+6. Further improvements, with more time, would be to allow the user to play against a choice of characters, with interaction chosen specific to that character.  Another possibility (with quite a bit more time!) would be to include different difficulty levels, by making the computer prediction after the image prediction of the user's guess has been captured.  The probability of the computer's choice being one of the options that leads to a user win could be increased for an 'Easy' game, and reduced for a 'Difficult' game (leaving unweighted probabilities as standard). This could be implemented using the `weights` argument of the `random.choice()` provided by the random module.  The ethics of a computer guess being selected *after* a user guess (even if still at random) seem slightly iffy to me, but you'll see far worse tactics if you play a few humans!
 
 
